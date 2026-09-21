@@ -1,0 +1,56 @@
+#separator:tab
+#html:false
+#columns:Front,Back,Tags
+#tags column:3
+What are the four functions of the NIST AI RMF?	GOVERN, MAP, MEASURE, and MANAGE.	CAIRO::mod101
+Which NIST AI RMF function operates continuously, underlying all the others?	GOVERN.	CAIRO::mod101
+What's the key distinction between AI governance and AI compliance?	Governance is about who decides and how you know it worked; compliance is about external rules you must satisfy.	CAIRO::mod101
+In the Three Lines Model applied to AI, which line does a CAIRO typically sit in?	The second line — sets policy, decision rights, and risk appetite (distinct from first-line operational teams and third-line internal audit).	CAIRO::mod101
+Is Model Risk Management (MRM) a parallel discipline to AI governance, or a category within it?	A category within AI governance, not a parallel discipline.	CAIRO::mod101
+What common failure mode occurs when a program builds MEASURE dashboards without doing GOVERN work first?	Dashboards and scores exist with no policy, accountability, or decision rights behind them - measurement without governance.	CAIRO::mod101
+Name three of the CAIRO's peer C-suite roles that require explicit boundary-setting.	Any three of: CRO, CCO, CPO, CAE, GC, CISO, CIO, CTO, CDO.	CAIRO::mod101
+What's the difference between 'CAIO' and 'CAIRO' as used across this curriculum?	CAIO is the real federal title from OMB M-25-21 ('Chief AI Officer'); CAIRO is this curriculum's private-sector role, 'Chief AI Risk Officer'. They are not the same title.	CAIRO::mod101
+What are the four lineages of modern AI regulation?	Rights-based, sector-based, capability-based, and jurisdiction-based.	CAIRO::mod102
+Which EU AI Act article establishes the risk-management-system obligation for high-risk AI?	Article 9.	CAIRO::mod102
+Which EU AI Act article covers serious-incident reporting?	Article 73.	CAIRO::mod102
+Which EU AI Act annex lists the high-risk use-case domains?	Annex III.	CAIRO::mod102
+What are the EU AI Act's four risk-tier classifications?	Prohibited, high-risk, limited-risk, and minimal-risk.	CAIRO::mod102
+What real federal role does OMB M-25-21 designate at every covered US agency?	A Chief AI Officer (CAIO), who chairs an AI Governance Board.	CAIRO::mod102
+What replaced the Federal Reserve's SR 11-7 model risk management guidance in April 2026?	SR 26-2 - a more risk-based standard correcting SR 11-7's over-application, particularly at community banks.	CAIRO::mod102
+What's the difference between a leading and a lagging risk indicator?	A leading indicator predicts a risk materializing before it happens; a lagging indicator only confirms it happened after the fact.	CAIRO::mod103
+In risk treatment, what is 'residual risk'?	The risk remaining after controls and mitigations are applied, as opposed to inherent risk (before any controls).	CAIRO::mod103
+What are the four classic risk treatment options?	Treat (mitigate), Transfer, Tolerate (accept), and Terminate.	CAIRO::mod103
+What does SR 11-7 govern?	Model Risk Management for banks - validating, monitoring, and governing models; originally for financial models, extended to ML/AI.	CAIRO::mod104
+What replaced SR 11-7 in April 2026?	SR 26-2.	CAIRO::mod104
+Why does classical 'challenger model' validation not directly apply to LLMs?	Challenger-model validation assumes a comparable, independently retrainable model exists; LLMs often have no directly comparable independent challenger.	CAIRO::mod104
+Name three principles frameworks referenced for AI ethics.	Any three of: OECD AI Principles, IEEE 7000, UNESCO Recommendation on AI Ethics, Asilomar AI Principles, EU HLEG Ethics Guidelines.	CAIRO::mod105
+Why can't a system satisfy every fairness metric simultaneously?	Mathematical impossibility results show several common fairness definitions (e.g. demographic parity vs. equalized odds) cannot all be satisfied at once except in trivial cases.	CAIRO::mod105
+What NIST publication defines Zero Trust Architecture?	NIST SP 800-207.	CAIRO::mod106
+What's the difference between deterministic and heuristic trust scoring?	Deterministic scoring evaluates fixed rules/axes to a reproducible yes/no decision; heuristic scoring uses probabilistic or ML-based judgment that can vary.	CAIRO::mod106
+Name the four common trust-gate placement patterns.	Agent-side, reverse-proxy, resource-side, and gateway-mediated.	CAIRO::mod106
+What four axes are commonly used in deterministic trust scoring?	Identity, Risk, Reliability, and Autonomy.	CAIRO::mod106
+Beyond build and buy, what is the third trust-architecture sourcing option?	Partner - buying some components (e.g., identity/attestation) and building others (e.g., policy/orchestration).	CAIRO::mod106
+Name three named threat-modeling resources used for AI security.	MITRE ATLAS, the OWASP LLM Top 10, and NIST AI 100-2 (the Adversarial Machine Learning taxonomy).	CAIRO::mod107
+Whose job is deep AI security engineering - the CAIRO's or the CISO's?	The CISO's / engineering org's. The CAIRO's job is program-level fluency, not engineering depth.	CAIRO::mod107
+What three properties distinguish audit-grade evidence from ordinary operational logging?	Verifiable provenance, defined completeness, and tamper resistance - properties most operational logs lack.	CAIRO::mod108
+What two cryptographic structures underlie tamper-evident audit ledgers?	Merkle trees and hash chains.	CAIRO::mod108
+What RFC defines Certificate Transparency, the reference pattern for tamper-evident ledgers?	RFC 9162.	CAIRO::mod108
+Which EU AI Act article requires automatic logging for high-risk systems?	Article 12.	CAIRO::mod108
+What's the difference between compliance and compliance operations?	Compliance defines what's required; compliance operations is the continuous practice of turning that into testable, evidenced controls rather than a quarter-end scramble.	CAIRO::mod109
+What does 'control mapping' turn an abstract regulatory obligation into?	A specific, testable control.	CAIRO::mod109
+How does AI incident response differ from classical incident response?	It layers AI-specific detection/classification challenges and regulatory notification timelines (e.g., EU AI Act Art. 73) on top of classical IR discipline.	CAIRO::mod110
+What is a 'notification matrix' used for in AI incident response?	Mapping which incidents get notified, to whom, when, and by whom, across every applicable regulatory obligation.	CAIRO::mod110
+What is the most common failure mode in board-level AI risk reporting?	Over-reporting - giving the board more operational detail than they need instead of what they can actually act on.	CAIRO::mod111
+What should a risk appetite statement do, beyond existing on paper?	Operate against actual decisions - be usable to decide whether a specific risk is acceptable or needs treatment.	CAIRO::mod111
+Name the three structural operating-model choices a CAIRO function must decide among.	Centralized, federated, or hub-and-spoke.	CAIRO::mod112
+What distinguishes a year-1 operating plan from a year-2 plan for a new CAIRO function?	Year 1 focuses on standing up foundations; year 2 transitions from foundation-laying to steady-state operation and maturity.	CAIRO::mod112
+What's the difference between an AI risk framework and an AI risk program?	A framework is the reference structure/methodology (e.g., NIST AI RMF); a program is the actual operational practice - artifacts, owners, and cadence - that makes the framework real inside one organization.	CAIRO::mod103
+In mod-103's MAP-to-MANAGE flow, what comes right after MEASURE and before GOVERN closes the loop?	MANAGE - where residual risk is decided on and treatment plans are executed.	CAIRO::mod103
+Name four distinct fairness metrics covered in mod-105, each grounded in a different intuition.	Any four of: demographic parity, equal opportunity, equalized odds, predictive parity, treatment equality, counterfactual fairness, individual fairness.	CAIRO::mod105
+What does 'equalized odds' require, as a fairness metric?	Equal true-positive AND false-positive rates across groups.	CAIRO::mod105
+What does 'counterfactual fairness' require?	The output should not change in the counterfactual world where only the protected group attribute is different.	CAIRO::mod105
+Name the three review cadences a working compliance operation runs per control.	Operating cadence (control owner, most frequent), steward cadence (compliance ops team, intermediate), and audit cadence (internal audit, annual).	CAIRO::mod109
+What goes wrong in a program that only has an audit cadence and no operating cadence?	Control failures are discovered only when the annual auditor asks - too late to fix within the period.	CAIRO::mod109
+Name the seven dimensions a notification matrix specifies for each incident.	Who is notified, what triggers it, when (the timeline), by whom, in what format, with what evidence, and with what approvals.	CAIRO::mod110
+List the five elements of a working AI risk appetite statement.	Preamble, risk categories (from the risk taxonomy), the appetite per category in board-readable language, the escalation process, and the review cadence.	CAIRO::mod111
+Name the six things a CAIRO function's year 1 should accomplish.	Build the governance machinery, establish the program's authority, stand up operational discipline, formally engage peer-role boundaries, hire the first team, and brief/engage the board.	CAIRO::mod112

@@ -2,7 +2,7 @@
 
 **Role level:** 70 (executive AI strategy — AI Governance family)
 **Family:** AI Governance
-**Status:** planned — modules and projects below are the planned scope keyed to the internal curriculum plan. All 12 modules and 5 projects are already scaffolded under [`lessons/`](lessons/) and [`projects/`](projects/). Lecture notes, exercises, quizzes, and reference solutions are populated for the foundational cycle; subsequent research cycles will refresh regulatory citations and add depth as the emerging themes catalogued in the internal curriculum plan cross the continuity-bias thresholds.
+**Status:** complete. All 12 modules and 5 capstone projects have lecture notes, exercises, quizzes, and reference solutions populated under [`lessons/`](lessons/) and [`projects/`](projects/).
 
 ## Overview
 
@@ -25,28 +25,28 @@ See [`JOB_REQUIREMENTS.md`](JOB_REQUIREMENTS.md) for the requirements-to-coverag
 
 | Module | Title | Hours | Status |
 |---|---|---|---|
-| [mod-101-foundations](lessons/mod-101-foundations/README.md) | AI Governance Foundations | 16 | planned |
-| [mod-102-regulatory-landscape](lessons/mod-102-regulatory-landscape/README.md) | Regulatory Landscape | 17 | planned |
-| [mod-103-ai-risk-frameworks](lessons/mod-103-ai-risk-frameworks/README.md) | AI Risk Frameworks | 19 | planned |
-| [mod-104-model-risk-management](lessons/mod-104-model-risk-management/README.md) | Model Risk Management | 18 | planned |
-| [mod-105-responsible-ai-and-ethics](lessons/mod-105-responsible-ai-and-ethics/README.md) | Responsible AI and Ethics | 18 | planned |
-| [mod-106-trust-architecture](lessons/mod-106-trust-architecture/README.md) | Trust Architecture | 19 | planned |
-| [mod-107-ai-security](lessons/mod-107-ai-security/README.md) | AI Security and Adversarial Defense | 19 | planned |
-| [mod-108-audit-ledgers-and-evidence](lessons/mod-108-audit-ledgers-and-evidence/README.md) | Audit Ledgers and Evidence | 19 | planned |
-| [mod-109-compliance-operations](lessons/mod-109-compliance-operations/README.md) | Compliance Operations | 18 | planned |
-| [mod-110-incident-response](lessons/mod-110-incident-response/README.md) | Incident Response | 18 | planned |
-| [mod-111-board-reporting](lessons/mod-111-board-reporting/README.md) | Board Reporting and Risk Appetite | 17 | planned |
-| [mod-112-cairo-operating-model](lessons/mod-112-cairo-operating-model/README.md) | The CAIRO Operating Model | 19 | planned |
+| [mod-101-foundations](lessons/mod-101-foundations/README.md) | AI Governance Foundations | 16 | complete |
+| [mod-102-regulatory-landscape](lessons/mod-102-regulatory-landscape/README.md) | Regulatory Landscape | 17 | complete |
+| [mod-103-ai-risk-frameworks](lessons/mod-103-ai-risk-frameworks/README.md) | AI Risk Frameworks | 19 | complete |
+| [mod-104-model-risk-management](lessons/mod-104-model-risk-management/README.md) | Model Risk Management | 18 | complete |
+| [mod-105-responsible-ai-and-ethics](lessons/mod-105-responsible-ai-and-ethics/README.md) | Responsible AI and Ethics | 18 | complete |
+| [mod-106-trust-architecture](lessons/mod-106-trust-architecture/README.md) | Trust Architecture | 19 | complete |
+| [mod-107-ai-security](lessons/mod-107-ai-security/README.md) | AI Security and Adversarial Defense | 19 | complete |
+| [mod-108-audit-ledgers-and-evidence](lessons/mod-108-audit-ledgers-and-evidence/README.md) | Audit Ledgers and Evidence | 19 | complete |
+| [mod-109-compliance-operations](lessons/mod-109-compliance-operations/README.md) | Compliance Operations | 18 | complete |
+| [mod-110-incident-response](lessons/mod-110-incident-response/README.md) | Incident Response | 18 | complete |
+| [mod-111-board-reporting](lessons/mod-111-board-reporting/README.md) | Board Reporting and Risk Appetite | 17 | complete |
+| [mod-112-cairo-operating-model](lessons/mod-112-cairo-operating-model/README.md) | The CAIRO Operating Model | 19 | complete |
 
 ## Project Plan
 
 | Project | Title | Hours | Status |
 |---|---|---|---|
-| [project-301-stand-up-ai-governance-program](projects/project-301-stand-up-ai-governance-program/README.md) | Stand Up an AI Governance Program for a 250-Person AI SaaS | 25 | planned |
-| [project-302-eu-ai-act-high-risk-response](projects/project-302-eu-ai-act-high-risk-response/README.md) | EU AI Act High-Risk Classification Response | 30 | planned |
-| [project-303-mrm-buildout](projects/project-303-mrm-buildout/README.md) | Build an MRM Function for AI/ML at a Regional Bank | 25 | planned |
-| [project-304-llm-data-leak-response](projects/project-304-llm-data-leak-response/README.md) | LLM Data-Leak Incident Response | 20 | planned |
-| [project-305-quarterly-board-report](projects/project-305-quarterly-board-report/README.md) | Quarterly Board AI Risk Report | 12 | planned |
+| [project-301-stand-up-ai-governance-program](projects/project-301-stand-up-ai-governance-program/README.md) | Stand Up an AI Governance Program for a 250-Person AI SaaS | 25 | complete |
+| [project-302-eu-ai-act-high-risk-response](projects/project-302-eu-ai-act-high-risk-response/README.md) | EU AI Act High-Risk Classification Response | 30 | complete |
+| [project-303-mrm-buildout](projects/project-303-mrm-buildout/README.md) | Build an MRM Function for AI/ML at a Regional Bank | 25 | complete |
+| [project-304-llm-data-leak-response](projects/project-304-llm-data-leak-response/README.md) | LLM Data-Leak Incident Response | 20 | complete |
+| [project-305-quarterly-board-report](projects/project-305-quarterly-board-report/README.md) | Quarterly Board AI Risk Report | 12 | complete |
 
 ## Module summaries
 
