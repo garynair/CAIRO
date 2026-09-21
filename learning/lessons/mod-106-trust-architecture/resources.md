@@ -37,7 +37,6 @@ explicitly as examples of range:
 
 | Source | Pattern illustrated |
 |---|---|
-| VeriSwarm Gate + Passport + Vault | Deterministic 4-axis trust score + signed-event vocabulary + tamper-evident ledger; commercial |
 | [Cloudflare AI Gateway](https://www.cloudflare.com/products/ai-gateway/) | Gateway-mediated trust + observability + safety; commercial |
 | [IBM watsonx.governance](https://www.ibm.com/products/watsonx-governance) | Governance platform with trust components; commercial |
 | [AWS Bedrock guardrails](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html) | Content-safety + posture controls; hyperscaler-embedded |

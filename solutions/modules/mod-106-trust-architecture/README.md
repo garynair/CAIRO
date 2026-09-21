@@ -7,7 +7,7 @@ not the answer. Each solution ends with reasoning notes.
 
 This module includes practitioner references to
 specific commercial and open-source patterns
-(VeriSwarm, Cloudflare, IBM, SPIFFE, etc.). The
+(Cloudflare, IBM, SPIFFE, etc.). The
 discipline carried through every solution: those are
 *patterns of practice*, never the canonical answer.
 The reasoning blocks make this explicit.

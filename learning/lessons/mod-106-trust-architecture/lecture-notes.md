@@ -233,8 +233,8 @@ differently:
   agent's permitted capabilities, the agent presents
   the VC at each operation.
 - **Agent passports** (term used by several
-  practitioners — VeriSwarm Passport, IBM watsonx
-  trust IDs, others) — a single signed document that
+  practitioners — IBM watsonx trust IDs, and
+  others) — a single signed document that
   packages all identity attributes into one verifiable
   artifact.
 - **Roll-your-own** with mTLS for transport, signed
@@ -298,9 +298,6 @@ The manifest is:
 
 Several practitioner patterns:
 
-- **VeriSwarm Passport** — signed ES256 attestations
-  with delegations chain + capability list + revocation
-  via JWKS endpoint. One implementation.
 - **Anthropic agent attestation pattern** — signed
   attestations of model identity + configuration; one
   implementation.
@@ -455,9 +452,9 @@ The trust gate's authorisation logic considers all
 axes.
 
 This is the *4-axis pattern* used by several
-practitioners — VeriSwarm Gate is one; Cloudflare AI
-Gateway uses a similar shape with different specific
-axes; IBM watsonx.governance varies the structure.
+practitioners — Cloudflare AI Gateway uses this shape
+with a different specific set of axes; IBM
+watsonx.governance varies the structure further.
 None is the canonical answer. The pattern (multiple
 orthogonal axes, deterministic per-axis scoring,
 policy-level decision logic on top) is reusable
@@ -478,9 +475,11 @@ gate consumes. The vocabulary needs to be:
 
 Practitioner patterns:
 
-- **VeriSwarm's 22 event types** — a working
-  vocabulary, openly defined; emit events from any
-  agent ecosystem into a shared trust score.
+- **A closed, numbered event taxonomy** — a fixed
+  vocabulary (commonly 15-30 event types) defined by
+  a single vendor or program; simple to implement,
+  but ecosystem participants must adopt that vendor's
+  specific taxonomy.
 - **OpenTelemetry's evolving GenAI semantic
   conventions** — community-maintained event
   vocabulary; broader adoption potential, less
@@ -634,8 +633,8 @@ OAuth 2.1, JWT/JOSE) and in-house implementation.
   vendor dependency is itself a risk.
 
 **Buy.** The organisation licences a commercial trust
-architecture product (VeriSwarm, Cloudflare AI
-Gateway, IBM watsonx.governance, others).
+architecture product (Cloudflare AI Gateway, IBM
+watsonx.governance, or another vendor).
 
 - *Strengths:* fast deployment; vendor support;
   architecture is battle-tested with other customers;
@@ -699,12 +698,10 @@ The current commercial and open-source landscape (no
 specific endorsement; observe the range):
 
 - **Commercial AI-trust-architecture products:**
-  VeriSwarm (deterministic 4-axis trust scoring +
-  Passport + Vault ledger), Cloudflare AI Gateway
-  (gateway-mediated trust + observability),
-  IBM watsonx.governance (governance platform with
-  trust components), Robust Intelligence, Credo AI,
-  Holistic AI.
+  Cloudflare AI Gateway (gateway-mediated trust +
+  observability), IBM watsonx.governance (governance
+  platform with trust components), Robust
+  Intelligence, Credo AI, Holistic AI.
 - **Open-source patterns:** SPIRE / SPIFFE for
   workload identity (originally designed for services;
   adaptable to agents); OpenID Connect + W3C VC

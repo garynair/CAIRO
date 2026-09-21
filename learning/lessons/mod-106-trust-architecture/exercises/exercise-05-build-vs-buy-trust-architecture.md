@@ -30,7 +30,7 @@ Their initial assessment of the three options:
   for maintenance. Architecture matches Halverston's
   multi-LOB needs exactly. No vendor dependency.
 - **Buy** (single commercial product — they've shortlisted
-  VeriSwarm and Cloudflare AI Gateway). 6–9 months to
+  Cloudflare AI Gateway and IBM watsonx.governance). 6–9 months to
   first production, $1.5–2.5M annual licensing, 2–3
   FTE ongoing for integration. Architecture is
   battle-tested but may not perfectly fit Halverston's

@@ -79,9 +79,9 @@ mod-106-trust-architecture/
 
 This module is the one most often discussing specific
 vendor or open-source implementations. **Source policy
-applies in full**: VeriSwarm Gate / Passport / Vault,
-Cloudflare AI Gateway, IBM watsonx.governance, Anthropic
-agent attestation patterns, and roll-your-own with
+applies in full**: Cloudflare AI Gateway, IBM
+watsonx.governance, Anthropic agent attestation
+patterns, and roll-your-own with
 NIST + W3C standards are all *practitioner patterns*.
 None is the canonical answer. The lecture notes draw on
 several and the exercises require you to compare them

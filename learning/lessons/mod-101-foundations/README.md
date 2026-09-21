@@ -107,7 +107,7 @@ authoritative** (EU AI Act, NIST AI RMF, ISO/IEC 42001,
 OECD AI Principles, IIA Three Lines Model, OCC SR 11-7,
 and so on). Where a practitioner reference appears —
 Anthropic's RSP, Microsoft's RAI Standard, Google's SAIF,
-VeriSwarm, IBM watsonx.governance — it is one
+IBM watsonx.governance — it is one
 implementation pattern, never the canonical answer. If a
 passage of this module reads like it is recommending a
 vendor, treat that as a defect and file an issue.

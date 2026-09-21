@@ -13,8 +13,9 @@ manifest format the agentic customer-service agent will
 present at each operation. The CISO has narrowed the
 choice to three patterns from §3.3 of the lecture notes:
 
-- **VeriSwarm Passport** style (commercial; ES256 signed
-  attestation with delegation chain).
+- **Anthropic agent attestation pattern** style
+  (signed attestations of model identity +
+  configuration).
 - **Cloudflare AI Gateway** style (gateway-mediated;
   the gateway becomes the identity authority).
 - **Roll-your-own** with W3C VC + JWT.
@@ -110,10 +111,10 @@ make the verification semantics inspectable.
   delegation is presented but verification fails for
   an intermediate hop** — what happens then.
 - The chosen pattern must be **honestly defended**.
-  If the recommendation is "buy VeriSwarm Passport",
-  the defence must address vendor capture (§6.4).
-  If "build with W3C VC + JWT", the defence must
-  address maintenance burden.
+  If the recommendation is "buy a commercial gateway
+  product", the defence must address vendor capture
+  (§6.4). If "build with W3C VC + JWT", the defence
+  must address maintenance burden.
 
 ## Rubric
 
@@ -144,7 +145,6 @@ requirement.
 - Lecture notes §3 (identity and capability scoping).
 - W3C Verifiable Credentials Data Model 2.0 — §§3–5.
 - RFC 7519 (JWT) for token structure.
-- VeriSwarm Passport documentation, Cloudflare AI
-  Gateway identity documentation, and one open-source
-  reference (e.g., SPIFFE / SPIRE adapted for agents)
-  for comparison.
+- Cloudflare AI Gateway identity documentation, and
+  one open-source reference (e.g., SPIFFE / SPIRE
+  adapted for agents) for comparison.

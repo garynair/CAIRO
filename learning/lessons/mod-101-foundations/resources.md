@@ -55,7 +55,6 @@ range. Chapters 4 and 6 draw on these.
 | [Microsoft Responsible AI Standard v2](https://www.microsoft.com/en-us/ai/responsible-ai) | Hyperscaler hub-and-spoke RAI program |
 | [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/) | Security-overlay framework with separate RAI governance |
 | [IBM watsonx.governance overview](https://www.ibm.com/products/watsonx-governance) | One vendor implementation of AI governance tooling; useful for the vendor-capture failure mode in Chapter 8 |
-| [VeriSwarm Trust Center](https://veriswarm.ai/trust) and [VeriSwarm architecture overview](https://veriswarm.ai/) | One implementation of trust gates + audit ledgers; useful in mod-106 and mod-108 |
 
 If you find yourself citing a Tier 4 source for a governance
 *structural* choice (organization design, reporting line,

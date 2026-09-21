@@ -40,11 +40,12 @@ projected by the CTO is real.
 
 Alternative paths considered:
 
-- *VeriSwarm Passport.* Mature, ES256-based, with
-  delegation-chain support. Would be fast to deploy.
-  Rejected because (a) Tessera's banking-specific
-  capability vocabulary would require custom
-  extensions to the Passport schema, (b) vendor
+- *Anthropic agent attestation pattern.* Signed
+  attestations of model identity and configuration;
+  would be fast to deploy. Rejected because
+  (a) Tessera's banking-specific capability
+  vocabulary would require custom extensions the
+  pattern doesn't natively support, (b) vendor
   lock-in on the trust-anchor layer is a high
   concentration risk.
 - *Cloudflare AI Gateway.* Gateway-mediated identity
@@ -311,13 +312,14 @@ patterns.
 
 ## 5. Reasoning notes
 
-- **Why W3C VC + JWT rather than VeriSwarm Passport.**
-  Tessera's existing OIDC infrastructure is the
-  determining factor. A bank that did not have this
-  could reasonably choose Passport (or Cloudflare,
-  or other commercial offerings) — the build cost
-  would be higher and the time-to-deploy worse.
-  Tessera's specific context makes building the
+- **Why W3C VC + JWT rather than a commercial
+  attestation product.** Tessera's existing OIDC
+  infrastructure is the determining factor. A bank
+  that did not have this could reasonably choose a
+  commercial attestation or gateway product (Cloudflare
+  or another vendor) — the build cost would be higher
+  and the time-to-deploy worse. Tessera's specific
+  context makes building the
   right choice. This is the *context-dependent*
   decision the §6 framework describes.
 - **Why ES256 specifically.** ES256 is the most

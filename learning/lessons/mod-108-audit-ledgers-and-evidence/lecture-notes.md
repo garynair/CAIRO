@@ -233,9 +233,6 @@ infrastructure with the discipline.
 
 A range of implementations:
 
-- **VeriSwarm Vault** — Merkle-chained ledger with
-  hash-chain ordering; signed exports; one
-  practitioner pattern.
 - **Sigstore Rekor** — open-source, Merkle-based
   transparency log designed for software supply
   chain; adaptable to AI events.
@@ -371,9 +368,10 @@ The current event-vocabulary landscape:
 - **OpenTelemetry GenAI semantic conventions** —
   the closest to community consensus for LLM and
   agent event types; still evolving.
-- **VeriSwarm 22-event vocabulary** — a working
-  practitioner pattern with explicit event types
-  for agent trust scoring (covered in mod-106
+- **A closed, numbered event vocabulary** — a
+  working practitioner pattern with explicit event
+  types for agent trust scoring, defined by a
+  single vendor or program (covered in mod-106
   §4.5).
 - **CloudEvents 1.0** — generic event envelope;
   used as a base by several AI-specific
@@ -639,10 +637,10 @@ implementation.
 ### 6.2 Buy
 
 The organisation licences a commercial audit-
-ledger product (VeriSwarm Vault, Sigstore Rekor as
-managed service, AWS CloudTrail with integrity
-validation, IBM watsonx.governance audit
-features, or sector-specific vendors).
+ledger product (Sigstore Rekor as a managed
+service, AWS CloudTrail with integrity validation,
+IBM watsonx.governance audit features, or a
+sector-specific vendor).
 
 - *Strengths:* Fast deployment; vendor support;
   architecture is battle-tested with other

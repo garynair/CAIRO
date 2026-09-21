@@ -34,7 +34,6 @@ Evidence.
 
 | Source | Pattern |
 |---|---|
-| VeriSwarm Vault | Merkle-chained ledger with hash-chain ordering + signed exports |
 | [Sigstore Rekor](https://www.sigstore.dev/) | Open-source transparency log adaptable to AI events |
 | [AWS CloudTrail with integrity validation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html) | Hyperscaler-managed audit-trail |
 | [IBM watsonx.governance audit features](https://www.ibm.com/products/watsonx-governance) | Enterprise governance platform with evidence components |

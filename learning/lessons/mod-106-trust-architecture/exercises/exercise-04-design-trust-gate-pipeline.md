@@ -115,7 +115,7 @@ design with no acknowledged costs is not credible.
   amount exceeds 75th percentile of the customer's
   90-day transfer history".
 - No vendor name appears as *the* answer. The design
-  may use VeriSwarm, Cloudflare, or roll-your-own
+  may use Cloudflare, IBM watsonx.governance, or roll-your-own
   components; if it does, the choice is defended on
   its own merits, not on vendor reputation.
 

@@ -39,7 +39,6 @@ Adversarial Defense.
 | [Microsoft AI Red Team practices](https://learn.microsoft.com/en-us/security/ai-red-team/) | One enterprise red-team operating model |
 | [Google AI red-teaming guidance](https://safety.google/cybersecurity-advancements/saif/) | Hyperscaler red-team pattern |
 | [HackerOne AI Safety Bounty patterns](https://www.hackerone.com/) | External-researcher patterns adapted for AI |
-| VeriSwarm Guard | One scanning/filtering implementation; pattern reference only |
 | [Cloudflare AI Gateway safety features](https://www.cloudflare.com/products/ai-gateway/) | Gateway-mediated output filtering pattern |
 
 ## Where to go next

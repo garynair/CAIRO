@@ -24,9 +24,8 @@ The CTO and CISO have presented three options:
   engineering + $1.5M annual maintenance;
   requires 3–4 specialised cryptographic engineers.
 - **Buy** from a commercial vendor. Shortlist:
-  VeriSwarm Vault, Sigstore Rekor (as managed
-  service via a third party), and one
-  hyperscaler-managed option. Estimated 4–6
+  Sigstore Rekor (as managed service via a third
+  party) and one hyperscaler-managed option. Estimated 4–6
   months to production; $0.8–1.5M annual
   licensing + $0.3M integration.
 - **Partner.** Buy the cryptographic ledger
