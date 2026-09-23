@@ -1,3 +1,5 @@
+![CAIRO — Chief AI Risk Officer Curriculum](docs/banner.png)
+
 # CAIRO — Chief AI Risk Officer Curriculum
 
 A complete, self-paced curriculum for the **Chief AI Risk Officer (CAIRO)** seat: the executive who owns enterprise AI strategy, AI portfolio risk and P&L attribution, board-level AI risk oversight, and CEO/board/regulator-facing positioning on AI.
